@@ -94,6 +94,7 @@ let patternFromLowerCase = "frOM".toLowerCase();
 let result4 = sen2LowerCase.includes('from');
 console.log(`\nIs the word 'from' present only once in sentence2 (ignoring cases)? -> ${result4}\n`);
 
+
 /**
  * localeCompare
  * substring/slice
