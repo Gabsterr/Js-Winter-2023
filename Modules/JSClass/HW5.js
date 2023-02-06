@@ -43,24 +43,10 @@ if (shapes.includes('a black cat')) {          // is a black cat present in the 
 
 
 
-/**
- * Q3:
- * const planets = ['MarS', 'MerCUrY', 'MaRS', 'JuPITer'];
- * 
- * if the 'Earth' is present as the first-element in the array, print "Earth is present at the correct place"
- * otherwise, Add 'Earth' as the first-element in the array; then print the planets-array
- * 
- */
+//Q3:
+
 console.log(`\nQ3:\n`);
 
-// const planets = ['Jupiter', 'Earth', 'MarS', 'MerCUrY', 'MaRS', 'JuPITer'];
-// console.log(`planets -> ${planets}`);
-// if (planets.pop) {
-//     console.log('Earth is present at the correct place');
-// } else {
-//     planets.unshift('Earth');
-//     console.log(planets);
-// }
 
 const planets = ['earth', 'MarS', 'MerCUrY', 'MaRS', 'JuPITer'];
 console.log(`planets -> ${planets}\n`);
