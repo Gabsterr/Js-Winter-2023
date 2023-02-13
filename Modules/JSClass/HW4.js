@@ -11,7 +11,7 @@
 let userName1 = 'Blair Will';
 
 let userName1Split = userName1.split(' ');
-let result11 = userName1Split.length ===2
+let result1 = userName1Split.length ===2
 console.log(`userName1 -> ${userName1}`);
 console.log(`the user has provided only first name and last name -> ${result1}\n\n`);
 
@@ -28,8 +28,11 @@ console.log(`the user has provided only first name and last name -> ${result1}\n
  */
 let sentence2 = 'Queen king palace castle'
 let abbr = '';
-// code
-console.log(`abbr -> ${abbr}`);     // YNWA
+let array = sentence2.toUpperCase().split(' ');
+ for (let X = 0 ; X < array.length ; X++) {
+    abbr = abbr + array[X].charAt(0);
+ }
+console.log(`abbr -> ${abbr}`);     // QKPC
 
 
 
@@ -38,8 +41,7 @@ console.log(`abbr -> ${abbr}`);     // YNWA
  */
 let sentence3 = 'CompreheNSIVe UP-to-DATE neWs CoverAgE, aggRegateD frOM soURCeS alL oVeR tHE wORld by GOOgle NeWs.';
 
-sentence3.split(" ");
-.length
-console.log(`${result}`);
+let array1 = sentence3.split(" ");
+console.log(array1.length);
 
 
